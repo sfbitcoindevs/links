@@ -1,5 +1,5 @@
 - title: Mass Exit Attacks on the Lightning Network
   url: https://arxiv.org/pdf/2208.01908.pdf
-  tags: lightning, research, paper, security
+  tags: [lightning, research, paper, security]
   date: 2022-8-4
   summary: Paper on the succeptability of the Lightning Network to mass exit attacks.

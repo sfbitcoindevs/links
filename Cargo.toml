@@ -1,8 +1,11 @@
 [package]
-name = "links"
-version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+name = "links"
+publish = false
+version = "0.0.0"
 
 [dependencies]
+chrono = { version = "0.4.22", features = ["serde"] }
+serde = { version = "1.0.144", features = ["derive"] }
+serde_yaml = "0.9.10"
+url = { version = "2.2.2", features = ["serde"] }

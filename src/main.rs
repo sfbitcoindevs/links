@@ -6,6 +6,7 @@ use {
 };
 
 #[derive(Deserialize)]
+#[allow(unused)]
 struct Link {
   title: String,
   url: Url,
